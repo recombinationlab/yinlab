@@ -1,2 +1,0 @@
-# yinlab
-Yin lab webpage
