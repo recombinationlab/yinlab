@@ -44,7 +44,7 @@ address, article, aside, figcaption, figure, footer, header, nav, section{displa
 
 /* ----------------------------------------------Wrapper-------------------------------------*/
 
-div.wrapper{display:block; width:100%; margin:0; padding:0; text-align:left;}
+div.wrapper{display:block; width:100%; margin:0; padding:5px 25px 5px; text-align:left;}
 
 .row1, .row1 a{color:#F2F2F2; background-color:#333333;}
 .row2{color:#F2F2F2; background-color:#232323;}
@@ -57,7 +57,7 @@ ol>li {
 }
 
 ul {
-  list-style-type: none;
+  list-style-type: disc;
 }
 
 /*----------------------------------------------Generalise-------------------------------------*/
