@@ -1,2 +1,4 @@
 licence.txt
 .DS_Store
+.Rproj*
+.Rhistory
