@@ -204,13 +204,13 @@ NEWS = [
   # "Mon. YYYY &mdash; text"; the key drives both the sort and the
   # displayed month, so there is one date to edit per item.
   ("2026-10",
-   'We are excited to announce that <strong>Ang Li will join our lab</strong> as a postdoc in Nov. 2026. Ang recently completed his Ph.D. in Systems, Synthetic, and Quantitative Biology at Harvard University, working with Dr. Michael Springer.'),
+   'We are excited to announce that <strong>Ang Li will join our lab</strong> as a postdoc in Nov. 2026. Ang recently completed her Ph.D. in Systems, Synthetic, and Quantitative Biology at Harvard University, working with Dr. Michael Springer.'),
   ("2026-09",
    'We are delighted to announce that <strong>Lin will join our lab</strong> as a postdoc in Jan. 2027, after completing her Ph.D. at Virginia Tech, where she studies circadian rhythms. We look forward to welcoming Lin to the lab.'),
   ("2026-07",
    'Congratulations to <strong>Peter</strong> on winning <strong>a poster competition, only 4 awards selected from 64 international entries</strong>, at the FASEB Genetic Recombination and Genome Rearrangements Conference in Scottsdale, AZ.'),
   ("2026-06",
-   'Our lab received a <strong>highly competitive, four-year Department of Defense (DoD) CDMRP Idea Development Award</strong> for the project “Defining an Error-free DNA Repair Signature as a Predictive Marker for Lethal Prostate Cancer.” This award supports our efforts to develop new approaches for predicting DNA repair vulnerabilities in prostate cancer.'),
+   'Our lab received a <strong>four-year Department of Defense (DoD) CDMRP Idea Development Award</strong> for the project “Defining an Error-free DNA Repair Signature as a Predictive Marker for Lethal Prostate Cancer.” This award supports our efforts to develop new approaches for predicting DNA repair vulnerabilities in prostate cancer.'),
   ("2026-03",
    'Peter and Shiyang presented their research at the DNA Damage, Mutation and Cancer GRC. Congratulations to <strong>Peter</strong> on winning <strong>second place in the highly competitive poster competition, selected from 93 international entries</strong>.'),
   ("2026-02",
