@@ -222,7 +222,10 @@ NEWS = [
   ("2025-11",
    'Congratulations to <strong>Peter</strong> on his <strong>promotion to Project Scientist</strong>.'),
   ("2025-08",
-   '<strong>Shiyang joined our lab</strong> as a postdoc after completing his Ph.D. at UC Riverside, where he studied RNA-binding proteins.'),
+   '<strong>Shiyang He joined our lab</strong> as a postdoc after completing his Ph.D. at UC Riverside, where he studied RNA-binding proteins.'),
+  ("2025-08",
+   '<strong>Junting Li joined our lab</strong> as a Summer Student Researcher. '
+   'She recently graduated from Shanghai Jiao Tong University.'),
   ("2025-02",
    'Our lab\'s research on expanding the sci-L3 single-cell sequencing platform was <strong>published in <em>Nucleic Acids Research</em></strong>. Congratulations to <strong>Peter</strong> on this important methodological advance.'),
   ("2024-12",
@@ -252,8 +255,8 @@ NEWS = [
   ("2021-08",
    'Our lab received an <strong>NIH NIGMS R35 MIRA Award</strong> for the project “Understanding Spontaneous Mitotic Crossover by Single-Cell Multi-Omics.”'),
   ("2021-06",
-   '<strong>Trevor joined our lab</strong> as a Ph.D. student in UCLA\'s Bioinformatics IDP, after completing his B.S. in Biomolecular Engineering and Bioinformatics at UC Santa Cruz.'),
-  ("2020-12",
+   '<strong>Trevor Ridgley joined our lab</strong> as a Ph.D. student in UCLA\'s Bioinformatics IDP, after completing his B.S. in Biomolecular Engineering and Bioinformatics at UC Santa Cruz.'),
+  ("2021-12",
    'Congratulations to <strong>Renee</strong> on receiving early admission offers from both Caltech and MIT.'),
   # Restored from the pre-2026 site, wording verbatim. The opening item was
   # dated 2019-03 there; corrected to 2020-03, when the lab actually opened.
@@ -264,7 +267,7 @@ NEWS = [
   ("2020-03",
    'The Yin Lab officially opened at UCLA in Spring 2020.'),
   ("2020-11",
-   '<strong>Peter joined our lab</strong> as a postdoc, following his Ph.D. research at the Babraham Institute, University of Cambridge, and a short postdoctoral training at Caltech.'),
+   '<strong>Peter Chovanec joined our lab</strong> as a postdoc, following his Ph.D. research at the Babraham Institute, University of Cambridge, and a short postdoctoral training at Caltech.'),
 ]
 
 
