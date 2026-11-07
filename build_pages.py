@@ -87,6 +87,9 @@ PUBLICATIONS = [
        authors="Yin Y, Petes TD", title="Genome-wide high-resolution mapping of UV-induced mitotic recombination events in <i>Saccharomyces cerevisiae</i>.", venue="PLoS Genet.", detail="2013; 9(10): e1003894.", pmid="24204306", pmcid="PMC3814309", pdf="files/2013_PlosGenetics_Global_UV_Mapping.pdf"),
   dict(kind="article",
        authors="St Charles J*, Hazkani-Covo E*, Yin Y, Andersen SL, Dietrich FS, Greenwell PW, Malc E, Mieczkowski P, Petes TD", title="High-resolution genome-wide analysis of irradiated (UV and gamma-rays) diploid yeast cells reveals a high frequency of genomic loss of heterozygosity (LOH) events.", venue="Genetics", detail="2012; 190(4): 1267-84.", pmid="22267500", pmcid="PMC3316642", pdf="files/2012_Genetics_LOH_Mapping_Method.pdf"),
+  # Posted 2026-10-24; not yet indexed in PubMed, so DOI only.
+  dict(kind="preprint",
+       authors="Ridgley T, Chovanec P, He S, Yin Y", title="Robust chromosome segmentation in sparse single-cell whole-genome sequencing using a k-segment constrained hidden Markov model.", venue="bioRxiv", detail="2026; 2026.10.19.760240.", doi="10.64898/2026.10.19.760240"),
   dict(kind="preprint",
        authors="Chovanec P, He S, Yin Y", title="Lesions initiating spontaneous mitotic crossover are minimally subject to non-homologous end joining.", venue="bioRxiv", detail="2026; 2026.05.11.724412.", pmid="42182344", pmcid="PMC13192724", doi="10.64898/2026.05.11.724412"),
   # Not indexed in PubMed and no published version as of this build
@@ -320,6 +323,7 @@ def nav(active):
 LAST_UPDATED = {
     "index.html": "Nov. 2019",
     "research.html": "Nov. 2019",
+    "publications.html": "Nov. 2026",
 }
 LAST_UPDATED_DEFAULT = "Oct. 2026"
 
