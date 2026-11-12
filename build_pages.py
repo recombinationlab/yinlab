@@ -91,7 +91,8 @@ PUBLICATIONS = [
   dict(kind="preprint",
        authors="Ridgley T, Chovanec P, He S, Yin Y", title="Robust chromosome segmentation in sparse single-cell whole-genome sequencing using a k-segment constrained hidden Markov model.", venue="bioRxiv", detail="2026; 2026.10.19.760240.", doi="10.64898/2026.10.19.760240"),
   dict(kind="preprint",
-       authors="Chovanec P, He S, Yin Y", title="Lesions initiating spontaneous mitotic crossover are minimally subject to non-homologous end joining.", venue="bioRxiv", detail="2026; 2026.05.11.724412.", pmid="42182344", pmcid="PMC13192724", doi="10.64898/2026.05.11.724412"),
+       authors="Chovanec P, He S, Yin Y", title="Lesions initiating spontaneous mitotic crossover are minimally subject to non-homologous end joining.", venue="bioRxiv", detail="2026; 2026.05.11.724412.", pmid="42182344", pmcid="PMC13192724", doi="10.64898/2026.05.11.724412",
+       note="(Accepted at <i>Nucleic Acids Res.</i>)"),
   # Not indexed in PubMed and no published version as of this build
   # (bioRxiv reports published_doi = NA), so no PMID/PMCID.
   dict(kind="preprint",
@@ -206,6 +207,27 @@ NEWS = [
   # (sortable YYYY-MM key, HTML body). Rendered newest-first as
   # "Mon. YYYY &mdash; text"; the key drives both the sort and the
   # displayed month, so there is one date to edit per item.
+  ("2026-11",
+   '<strong>Our study on spontaneous mitotic crossover in cell lines defective in NHEJ and '
+   'single-strand break (SSB) repair has been accepted for publication in <em>Nucleic Acids '
+   'Research</em></strong> (<a href="https://www.biorxiv.org/content/10.64898/2026.05.11.724412v1" '
+   'target="_blank">bioRxiv preprint</a>), following the recent publication of our companion paper '
+   'on Cas9-induced sister chromatid exchange (SCE) in <a '
+   'href="https://elifesciences.org/articles/112073" target="_blank"><em>eLife</em></a> and a '
+   'detailed sci-L3-Strand-seq protocol in <a '
+   'href="https://www.cell.com/star-protocols/fulltext/S2666-1667(26)00545-9" '
+   'target="_blank"><em>STAR Protocols</em></a>. We found that XRCC1 knockout induces abundant '
+   'spontaneous SCE, establishing SSBs as a major source of spontaneous homologous recombination. '
+   'Using reciprocal daughter-cell pair (RDCP) analysis, we found that XRCC1-deficient cells '
+   'predominantly exhibit SCE without accompanying structural variations (SVs). Our companion '
+   '<em>eLife</em> study further demonstrates the power of RDCP analysis to identify SVs coupled to '
+   'SCE at exchange junctions and provides supporting evidence for SCE arising from under-replicated '
+   'regions (URRs). Together, these findings suggest that SCE and SV represent orthogonal dimensions '
+   'of non-local DNA repair, with their relationship potentially depending on the nature of the '
+   'initiating lesions. The <em>STAR Protocols</em> paper provides step-by-step experimental '
+   'workflows for sci-L3-Strand-seq, making the platform readily accessible to other labs. We look '
+   'forward to seeing what new biology the broader research community will uncover using this '
+   'approach.'),
   ("2026-10",
    'We are excited to announce that <strong>Ang Li will join our lab</strong> as a postdoc in Nov. 2026. Ang recently completed her Ph.D. in Systems, Synthetic, and Quantitative Biology at Harvard University, working with Dr. Michael Springer.'),
   ("2026-09",
@@ -439,7 +461,10 @@ def build_publications():
             if ids:
                 out.append('          ' + " ".join(ids) + '.\n')
             if links:
-                out.append('          ' + " ".join(links) + '\n')
+                out.append('          ' + " ".join(links)
+                           + (' ' + e["note"] if e.get("note") else '') + '\n')
+            elif e.get("note"):
+                out.append('          ' + e["note"] + '\n')
             for label, url in e.get("extra", []):
                 out.append('          <br>' + label + ' <a href="' + url
                            + '" target="_blank">[link]</a>\n')
